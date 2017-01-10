@@ -1,0 +1,23 @@
+{
+    "name": "grithin/php-permissions",
+    "description": "PHP Permission Classes",
+    "keywords": ["php"],
+    "license": "Apache-2.0",
+    "homepage": "http://devtools.grithin.com",
+    "authors": [
+        {
+            "name": "Adam F Frederick",
+            "email": "bob_bf2@deemit.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "grithin/phpbase": ">=4.0.0",
+		  "grithin/phpdb": ">=3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grithin\\User\\": "src/"
+        }
+    }
+}
